@@ -10,9 +10,9 @@ function getDB() {
     static $pdo = null;
     if ($pdo === null) {
         $db_host = 'localhost';
-        $db_user = 'u82457';
-        $db_pass = '7777166';
-        $db_name = 'u82457';
+        $db_user = 'u82415';
+        $db_pass = '5889805';
+        $db_name = 'u82415';
         try {
             $pdo = new PDO("mysql:host=$db_host;dbname=$db_name;charset=utf8mb4", $db_user, $db_pass);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
